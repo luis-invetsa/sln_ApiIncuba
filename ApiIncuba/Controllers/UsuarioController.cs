@@ -7,8 +7,8 @@ using System.Threading.Tasks;
 namespace ApiIncuba.Controllers
 {
     //[Route("api/[controller]/[action]")]
-    //[Route("[controller]")]
-    //[ApiController]
+    [Route("[controller]")]
+    [ApiController]
     //[ProducesResponseType(StatusCodes.Status400BadRequest)]
     //[ApiExplorerSettings(GroupName = "ApiUsuario")]
     //[Authorize(AuthenticationSchemes = "Bearer")]
